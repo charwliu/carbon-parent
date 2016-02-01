@@ -53,7 +53,7 @@
         <repository>
             <id>SPF.release</id>
             <name>SPF Releases Repository</name>
-            <url>http://localhost:8081/repository/maven-releases</url>
+            <url>http://localhost/nexus/repository/maven-releases</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -65,7 +65,7 @@
         <repository>
             <id>SPF.snapshots</id>
             <name>SPF Snapshot Repository</name>
-            <url>http://localhost:8081/repository/maven-snapshots</url>
+            <url>http://localhost/nexus/repository/maven-snapshots</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -134,12 +134,12 @@
         -->
         <repository>
             <id>SPF.release</id> 
-            <url>http://localhost:8081/repository/maven-releases</url>
+            <url>http://localhost/nexus/repository/maven-releases</url>
         </repository>
         <snapshotRepository>
             <id>SPF.snapshots</id>
             <name>SPF Snapshot Repository</name>
-            <url>http://localhost:8081/repository/snapshots</url>
+            <url>http://localhost/nexus/repository/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
